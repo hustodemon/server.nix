@@ -1,4 +1,4 @@
-{ name, args, vlan, name, pkgs }@params:
+{ name, args, vlan, pkgs }@params:
 
 let
   lib = pkgs.lib;
