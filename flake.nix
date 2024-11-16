@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
     microvm = {
-      url = "github:dezren39/microvm.nix";
+      url = "github:developing-today-forks/microvm.nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
