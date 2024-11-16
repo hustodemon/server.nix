@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
     microvm = {
-      url = "github:jim3692/microvm.nix/console-in-unix-sock";
+      url = "github:dezren39/microvm.nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
