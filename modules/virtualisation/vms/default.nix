@@ -8,7 +8,7 @@ let
     VM {
       name = k;
       args = v;
-      #vlan = config.server.network.vlans."${v.vlan}";
+      vlan = config.server.network.vlans."${v.vlan}";
       dns = if (v.dns != "") then v.dns else config.server.network.dns;
       inherit pkgs;
     }) config.server.vms;
